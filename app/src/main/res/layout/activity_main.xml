@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.blekichlouro.tupicionario.MainActivity">
+
+    <TextView
+        android:text="@string/bichos_categoria"
+        android:id="@+id/tvBichos"
+        style="@style/CategoriaStyle"
+        android:background="@color/bichos_categoria"/>
+
+    <TextView
+        android:text="@string/culinaria_categoria"
+        android:id="@+id/tvCulinaria"
+        style="@style/CategoriaStyle"
+        android:background="@color/culinaria_categoria"/>
+
+    <TextView
+        android:text="@string/plantas_categoria"
+        android:id="@+id/tvPlantas"
+        style="@style/CategoriaStyle"
+        android:background="@color/plantas_categoria"/>
+
+    <TextView
+        android:text="@string/povos_nativos_categoria"
+        android:id="@+id/tvPovosNativos"
+        style="@style/CategoriaStyle"
+        android:background="@color/povos_nativos_categoria"/>
+
+
+</LinearLayout>
